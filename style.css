@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #EAF5F0;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50,167,145);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trybewarts-header-logo {
+  width: 90px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.header h1 {
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.header-login {
+  margin-right: 20px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  width: 170px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 10px;
+}
+
+.header-login::placeholder {
+  font-size: 16px;
+  padding: 15px;
+  color: gray;
+  font-weight: 600;
+}
+
+#btn-submit-header {
+  background-color: #7229AF;
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+
+#main-container {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.div-flex {
+  display: flex;
+}
+
+.first-input-form {
+  width: 50%;
+  height: 40px;
+  margin: 5px 2px;
+  border-radius: 5px;
+  border: none;
+}
+
+.first-input-form::placeholder {
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+#input-email {
+  width: 49%;
+}
+
+#house {
+  width: 278px;
+  height: 45px;
+  margin: 5px 2px;
+}
+
+.label-house {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.div-flex-second {
+  display: flex;
+  margin-top: 10px;
+  width: auto;
+  justify-content: space-between;
+}
+
+.subcontainer-one {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-one {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.options {
+  margin-right: 10px;
+}
+
+.subcontainer-two {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  justify-content: space-between;
+}
+
+.label-family {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin: 10px 10px 10px 0px;
+  align-items: center;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.textarea {
+  margin-top: 10px;
+}
+
+#text-coment {
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#label-infos {
+  margin: 10px 0px;
+}
+
+#submit-btn {
+  background-color: #7229AF;
+  font-size: 20px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 0px;
+  font-weight: 600;
+  border-radius: 5px;
+  border: none;
+}
+
+#btn-submit:hover {
+  color: yellow;
+}
+
+#footer-rights {
+  height: 50px;
+  display: flex;
+  background-color: #708090;
+  width: 100%;
+  color: white;
+  margin-top: 65px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
